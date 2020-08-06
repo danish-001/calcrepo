@@ -1,10 +1,9 @@
-import React, {Component} from 'react';
+import React from 'react';
 import './App.css';
 import Keypad from './component/Keypad'
 import Output from './component/Output'
 
-class App extends Component {
-
+class App extends React.Component {
   state = {
     result: ''
   }

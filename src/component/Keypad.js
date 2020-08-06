@@ -1,8 +1,7 @@
 import React, { Component } from 'react'
 
 class Keypad extends Component {
-
-  buttonPressed = e => {
+  buttonPressed = (e) => {
     this.props.buttonPressed(e.target.name)
   }
 
